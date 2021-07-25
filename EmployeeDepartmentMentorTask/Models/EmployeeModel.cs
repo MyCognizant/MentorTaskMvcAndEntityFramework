@@ -19,6 +19,11 @@ namespace EmployeeDepartmentMentorTask.Models
         public DepartmentModel Department { get; set; }
 
 
+        public EmployeeModel()
+        {
+
+        }
+
         public EmployeeModel( string designation, string name, int age, double salary, DepartmentModel department)
         {
             Designation = designation;

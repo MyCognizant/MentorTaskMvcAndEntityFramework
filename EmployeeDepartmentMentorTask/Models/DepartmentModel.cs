@@ -11,6 +11,8 @@ namespace EmployeeDepartmentMentorTask.Models
         public int DepartmentId { get; set; }
         public string DepartmentName { get; set; }
 
+        public string BusineesLine { get; set; }
+
         public ICollection<EmployeeModel> Emloyees { get; set; }
 
         public DepartmentModel(string departmentName)
