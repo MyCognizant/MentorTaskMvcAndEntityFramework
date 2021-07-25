@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeDepartmentMentorTask", "EmployeeDepartmentMentorTask\EmployeeDepartmentMentorTask.csproj", "{E8AE07FF-CCDE-4F72-96ED-CD1316898EFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MentorTasks.Web.MvcBasics", "MentorTasks.Web.MvcBasics\MentorTasks.Web.MvcBasics.csproj", "{BC18219E-3EE0-4998-BEDA-56C303EC6F7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8AE07FF-CCDE-4F72-96ED-CD1316898EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8AE07FF-CCDE-4F72-96ED-CD1316898EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8AE07FF-CCDE-4F72-96ED-CD1316898EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8AE07FF-CCDE-4F72-96ED-CD1316898EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC18219E-3EE0-4998-BEDA-56C303EC6F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC18219E-3EE0-4998-BEDA-56C303EC6F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC18219E-3EE0-4998-BEDA-56C303EC6F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC18219E-3EE0-4998-BEDA-56C303EC6F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D346085-D320-4922-BCBC-928D17E46E5F}
+	EndGlobalSection
+EndGlobal

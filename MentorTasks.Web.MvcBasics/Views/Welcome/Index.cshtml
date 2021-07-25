@@ -1,0 +1,27 @@
+﻿@using Microsoft.Ajax.Utilities
+@model MentorTasks.Web.MvcBasics.Models.Customer
+
+
+@{
+    ViewBag.Title = "Welcome";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewData["Message"]   </h2>
+
+@if (Model.Name != null && Model.Name.Trim().Length != 0)
+{
+
+    <h2>  @Model.Name </h2>
+}
+
+
+@using (Html.BeginForm("Create", "Welcome"))
+{
+    <div class="form-group">
+        @Html.LabelFor(m=>m.Name)
+        @Html.TextBoxFor(m=>m.Name, new {@class= "form-group"})
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>    
+
+}
